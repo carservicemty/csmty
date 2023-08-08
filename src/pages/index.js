@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Section, Text, Icon, Hr, Strong, Span, LinkBox } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Section, Text, Icon, Hr, Strong, Span, LinkBox, Structure } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -617,15 +617,36 @@ export default (() => {
 					</Span>
 				</Text>
 			</Box>
-			<LinkBox>
-				<Image
-					src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/facebook%20logo.png?v=2023-08-08T23:12:05.788Z"
-					display="block"
-					width="60px"
-					margin="0px 0px 0px 0px"
-					padding="0px 0px 0px 0"
-				/>
-			</LinkBox>
+			<Structure cells-number-total="2" cells-number-group="2">
+				<Override slot="Content" grid-template-columns="repeat(2, 6fr)" sm-grid-template-columns="12fr">
+					<Override slot="cell-1">
+						<LinkBox href="https://www.instagram.com/carservice.mty/?hl=es-la">
+							<Image
+								src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/instagram%20logo.png?v=2023-08-08T23:20:50.602Z"
+								display="block"
+								align-self="flex-start"
+								width="54px"
+								padding="1px 0px 0px 0px"
+								margin="2.5px 0px 0px 0px"
+							/>
+						</LinkBox>
+					</Override>
+					<Override slot="cell-0">
+						<LinkBox order="0" align-self="flex-start" display="flex">
+							<Image
+								src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/facebook%20logo.png?v=2023-08-08T23:12:05.788Z"
+								display="block"
+								width="65px"
+								margin="0px 0px px 0px"
+								padding="0px 0px 1px 0"
+								align-self="flex-end"
+							/>
+						</LinkBox>
+					</Override>
+					<Override slot="Cell 0th" position="relative" />
+					<Override slot="Cell 1st" height="65px" />
+				</Override>
+			</Structure>
 		</Section>
 		<Link
 			font={"--capture"}
