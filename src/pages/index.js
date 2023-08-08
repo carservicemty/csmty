@@ -584,9 +584,6 @@ export default (() => {
 					CONTACTO
 				</Text>
 				<Text margin="0px 0px 48px 0px" font="--lead" color="--light" text-align="center" />
-				<LinkBox>
-					<Image src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=200" display="block" />
-				</LinkBox>
 				<Span
 					text-align="center"
 					color="--light"
@@ -620,6 +617,15 @@ export default (() => {
 					</Span>
 				</Text>
 			</Box>
+			<LinkBox>
+				<Image
+					src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/facebook%20logo.png?v=2023-08-08T23:12:05.788Z"
+					display="block"
+					width="60px"
+					margin="0px 0px 0px 0px"
+					padding="0px 0px 0px 0"
+				/>
+			</LinkBox>
 		</Section>
 		<Link
 			font={"--capture"}
