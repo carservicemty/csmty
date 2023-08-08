@@ -3,7 +3,7 @@ module.exports = {
         title: "Quarkly gatsby project",
         description: "",
         author: "@Car Service",
-        siteUrl: "https://example.com"
+        siteUrl: "https://www.carservice.com.mx"
     },
     plugins: [
         "gatsby-plugin-react-helmet",

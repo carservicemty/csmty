@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Section, Text, Icon, Hr, Strong, Span } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Section, Text, Icon, Hr, Strong, Span, LinkBox } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, StackItem, Stack, SocialMedia } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
 import { MdArrowDownward } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
@@ -564,7 +564,7 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Section background="--color-darkL1" padding="80px 0 80px 0">
+		<Section background="#0E1317" padding="80px 0 80px 0" position="static">
 			<Box
 				display="flex"
 				align-items="center"
@@ -584,6 +584,9 @@ export default (() => {
 					CONTACTO
 				</Text>
 				<Text margin="0px 0px 48px 0px" font="--lead" color="--light" text-align="center" />
+				<LinkBox>
+					<Image src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=200" display="block" />
+				</LinkBox>
 				<Span
 					text-align="center"
 					color="--light"
@@ -603,39 +606,20 @@ export default (() => {
 					(+52) 81 8401 0683
 				</Span>
 				<Text margin="0px 0px 48px 0px" font="--headline3" color="--light" text-align="center">
-					<Span>
+					<Span
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
 						Calle Gral. Aarón Sáenz 3909, Mederos, 64950 Monterrey, N.L.
 					</Span>
 				</Text>
 			</Box>
-			<SocialMedia facebook="https://www.facebook.com/quarklyapp/" twitter="https://twitter.com/quarklyapp" instagram="https://instagram.com/instagram" margin="0px 0px 0px 0px">
-				<Override
-					slot="link"
-					border-radius="50%"
-					color="--grey"
-					hover-color="--light"
-					background="#191E22"
-					hover-background="--color-primary"
-					margin="0 5px 0 5px"
-					padding="5x 5px 5px 5px"
-					width="48px"
-					height="48px"
-					align-items="center"
-					display="flex"
-					justify-content="center"
-					hover-transition="background-color 0.2s ease-in-out 0s"
-					transition="background-color 0.2s ease-in-out 0s"
-				/>
-				<Override
-					slot="icon"
-					color="--light"
-					padding="7px 7px 7px 7px"
-					border-width="0px"
-					size="38px"
-					border-radius="50px"
-				/>
-				<Override slot="link-facebook" user-select="auto" />
-			</SocialMedia>
 		</Section>
 		<Link
 			font={"--capture"}
