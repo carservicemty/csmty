@@ -584,24 +584,16 @@ export default (() => {
 					CONTACTO
 				</Text>
 				<Text margin="0px 0px 48px 0px" font="--lead" color="--light" text-align="center" />
-				<Span
-					text-align="center"
-					color="--light"
-					font="--headline3"
-					text-decoration-line="initial"
-					margin="0px 0px 16px 0px"
-				>
-					carservice.mty@gmail.com
-				</Span>
-				<Span
-					text-align="center"
-					color="--light"
-					font="--headline3"
-					text-decoration-line="initial"
-					margin="0px 0px 16px 0px"
-				>
-					(+52) 81 8401 0683
-				</Span>
+				<LinkBox href="mailto:carservice.mty@gmail.com" padding="0px 0px 10px 0px">
+					<Text margin="0px 0px 0px 0px" color="#f0e5e5" font="--headline3">
+						carservice.mty@gmail.com
+					</Text>
+				</LinkBox>
+				<LinkBox href="tel:8184010683" padding="0px 0px 10px 0px">
+					<Text margin="0px 0px 0px 0px" color="#f0e5e5" font="--headline3">
+						(+52) 8384010683
+					</Text>
+				</LinkBox>
 				<Text margin="0px 0px 48px 0px" font="--headline3" color="--light" text-align="center">
 					<Span
 						overflow-wrap="normal"
@@ -632,7 +624,7 @@ export default (() => {
 						</LinkBox>
 					</Override>
 					<Override slot="cell-0">
-						<LinkBox order="0" align-self="flex-start" display="flex">
+						<LinkBox order="0" align-self="flex-start" display="flex" href="https://www.facebook.com/CarServiceMx">
 							<Image
 								src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/facebook%20logo.png?v=2023-08-08T23:12:05.788Z"
 								display="block"
