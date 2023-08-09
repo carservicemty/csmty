@@ -617,22 +617,22 @@ export default (() => {
 								src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/instagram%20logo.png?v=2023-08-08T23:20:50.602Z"
 								display="block"
 								align-self="flex-start"
-								width="54px"
+								width="60px"
 								padding="1px 0px 0px 0px"
 								margin="2.5px 0px 0px 0px"
 							/>
 						</LinkBox>
 					</Override>
 					<Override slot="cell-0">
-						<LinkBox order="0" align-self="flex-start" display="flex" href="https://www.facebook.com/CarServiceMx">
-							<Image
-								src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/facebook%20logo.png?v=2023-08-08T23:12:05.788Z"
-								display="block"
-								width="65px"
-								margin="0px 0px px 0px"
-								padding="0px 0px 1px 0"
-								align-self="flex-end"
-							/>
+						<LinkBox
+							order="0"
+							align-self="flex-start"
+							display="flex"
+							href="https://www.facebook.com/CarServiceMx"
+							position="static"
+							align-items="flex-end"
+						>
+							<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/facebook%20logo.png?v=2023-08-09T18:38:53.739Z" display="block" width="65px" />
 						</LinkBox>
 					</Override>
 					<Override slot="Cell 0th" position="relative" />
