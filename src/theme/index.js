@@ -48,8 +48,11 @@ export default {
 		"serifTimes": "Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif",
 		"serifGeorgia": "Constantia, 'Lucida Bright', Lucidabright, 'Lucida Serif', Lucida, 'DejaVu Serif', 'Bitstream Vera Serif', 'Liberation Serif', Georgia, serif",
 		"serifGaramond": "'Palatino Linotype', Palatino, Palladio, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'Apple Garamond', 'ITC Garamond Narrow', 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', Georgia, serif",
+		"googleKanit": "\"Kanit\", sans-serif",
 		"googleMontserrat": "\"Montserrat\", sans-serif",
-		"googleKanit": "\"Kanit\", sans-serif"
+		"googleRaleway": "\"Raleway\", sans-serif",
+		"googleQuicksand": "\"Quicksand\", sans-serif",
+		"googleMulish": "\"Mulish\", sans-serif"
 	},
 	"font": {
 		"headline1": "normal 900 72px/1.2 --fontFamily-sans",
@@ -154,6 +157,33 @@ export default {
 		}
 	},
 	"fonts": {
+		"Kanit": {
+			"family": "Kanit",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"100",
+					"100italic",
+					"200",
+					"200italic",
+					"300",
+					"300italic",
+					"regular",
+					"italic",
+					"500",
+					"500italic",
+					"600",
+					"600italic",
+					"700",
+					"700italic",
+					"800",
+					"800italic",
+					"900",
+					"900italic"
+				]
+			}
+		},
 		"Montserrat": {
 			"family": "Montserrat",
 			"type": "google-fonts",
@@ -181,33 +211,72 @@ export default {
 				]
 			}
 		},
-		"Kanit": {
-			"family": "Kanit",
+		"Raleway": {
+			"family": "Raleway",
 			"type": "google-fonts",
 			"meta": {
 				"category": "sans-serif",
 				"variants": [
 					"100",
-					"100italic",
 					"200",
-					"200italic",
 					"300",
-					"300italic",
 					"regular",
-					"italic",
 					"500",
-					"500italic",
 					"600",
-					"600italic",
 					"700",
-					"700italic",
 					"800",
-					"800italic",
 					"900",
+					"100italic",
+					"200italic",
+					"300italic",
+					"italic",
+					"500italic",
+					"600italic",
+					"700italic",
+					"800italic",
+					"900italic"
+				]
+			}
+		},
+		"Quicksand": {
+			"family": "Quicksand",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"300",
+					"regular",
+					"500",
+					"600",
+					"700"
+				]
+			}
+		},
+		"Mulish": {
+			"family": "Mulish",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"200",
+					"300",
+					"regular",
+					"500",
+					"600",
+					"700",
+					"800",
+					"900",
+					"200italic",
+					"300italic",
+					"italic",
+					"500italic",
+					"600italic",
+					"700italic",
+					"800italic",
 					"900italic"
 				]
 			}
 		}
 	},
-	"version": 3
+	"version": 7
 }

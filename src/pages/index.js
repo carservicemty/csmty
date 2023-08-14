@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Section, Text, Icon, Hr, Strong, Span, LinkBox, Structure } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Section, Text, Icon, Strong, Span, LinkBox, Structure } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -53,23 +53,6 @@ export default (() => {
 				<Icon category="md" margin="0 auto" icon={MdArrowDownward} />
 			</Box>
 		</Section>
-		<Section
-			padding="48px 0 48px 0"
-			sm-padding="60px 0 60px 0"
-			quarkly-title="About-14"
-			background=",--color-darkL2"
-			color="#818181"
-			border-color="--color-darkL2"
-		>
-			<Override
-				slot="SectionContent"
-				flex-direction="row"
-				flex-wrap="wrap"
-				sm-min-width="280px"
-				flex="1 1 0%"
-			/>
-		</Section>
-		<Hr min-height="10px" min-width="100%" margin="0px 0px 0px 0px" />
 		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0">
 			<Override slot="SectionContent" flex-direction="row" md-flex-wrap="wrap" />
 			<Box
@@ -265,8 +248,9 @@ export default (() => {
 			</Box>
 			<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/cs.jpeg?v=2023-08-07T18:48:44.751Z" display="block" />
 		</Section>
+		<Section background="#a61414" height="30px" />
 		<Section
-			padding="60px 0 90px 0"
+			padding="100px 0 200px 0"
 			sm-padding="40px 0"
 			min-height="600px"
 			sm-min-height="auto"
@@ -275,6 +259,8 @@ export default (() => {
 			lg-padding="45px 0 45px 0"
 			quarkly-title="Advantages/Features-26"
 			height="1338px"
+			sm-height="2000px"
+			md-height="2100px"
 		>
 			<Override
 				slot="SectionContent"
@@ -283,6 +269,7 @@ export default (() => {
 				grid-gap="5%"
 				max-width="1200px"
 				sm-min-width="280px"
+				sm-height="2000px"
 			/>
 			<Box
 				display="flex"
@@ -306,7 +293,7 @@ export default (() => {
 					md-width="100%"
 					sm-font="normal 600 40px/1.2 --fontFamily-sans"
 					text-align="center"
-					sm-text-align="left"
+					sm-text-align="center"
 				>
 					<Span
 						font-weight="normal"
@@ -319,7 +306,9 @@ export default (() => {
 						user-select="auto"
 						pointer-events="auto"
 					>
-						NUESTROS SERVICIOS
+						<Strong>
+							NUESTROS SERVICIOS
+						</Strong>
 					</Span>
 				</Text>
 				<Text
@@ -344,6 +333,7 @@ export default (() => {
 					max-width="1000px"
 					md-grid-template-columns="1fr"
 					height="942px"
+					sm-margin="0px 0px 0px 0px"
 				>
 					<Box
 						padding="24px 24px 48px 24px"
@@ -351,9 +341,10 @@ export default (() => {
 						border-radius="8px"
 						border-width="0px 0px 0px 4px"
 						border-style="solid"
-						border-color="--color-red"
+						border-color="#a61414"
 						box-shadow="--m"
 						sm-padding="24px 24px 24px 24px"
+						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
 							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
@@ -372,9 +363,10 @@ export default (() => {
 						border-radius="8px"
 						border-width="0px 0px 0px 4px"
 						border-style="solid"
-						border-color="--color-red"
+						border-color="#a61414"
 						box-shadow="--m"
 						sm-padding="24px 24px 24px 24px"
+						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
 							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
@@ -399,9 +391,10 @@ export default (() => {
 						border-radius="8px"
 						border-width="0px 0px 0px 4px"
 						border-style="solid"
-						border-color="--color-red"
+						border-color="#a61414"
 						box-shadow="--m"
 						sm-padding="24px 24px 24px 24px"
+						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
 							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
@@ -432,9 +425,10 @@ export default (() => {
 						border-radius="8px"
 						border-width="0px 0px 0px 4px"
 						border-style="solid"
-						border-color="--color-red"
+						border-color="#a61414"
 						box-shadow="--m"
 						sm-padding="24px 24px 24px 24px"
+						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
 							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
@@ -457,9 +451,10 @@ export default (() => {
 						border-radius="8px"
 						border-width="0px 0px 0px 4px"
 						border-style="solid"
-						border-color="--color-red"
+						border-color="#a61414"
 						box-shadow="--m"
 						sm-padding="24px 24px 24px 24px"
+						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
 							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
@@ -473,9 +468,10 @@ export default (() => {
 						border-radius="8px"
 						border-width="0px 0px 0px 4px"
 						border-style="solid"
-						border-color="--color-red"
+						border-color="#a61414"
 						box-shadow="--m"
 						sm-padding="24px 24px 24px 24px"
+						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
 							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
@@ -489,9 +485,10 @@ export default (() => {
 						border-radius="8px"
 						border-width="0px 0px 0px 4px"
 						border-style="solid"
-						border-color="--color-red"
+						border-color="#a61414"
 						box-shadow="--m"
 						sm-padding="24px 24px 24px 24px"
+						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
 							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
@@ -505,9 +502,10 @@ export default (() => {
 						border-radius="8px"
 						border-width="0px 0px 0px 4px"
 						border-style="solid"
-						border-color="--color-red"
+						border-color="#a61414"
 						box-shadow="--m"
 						sm-padding="24px 24px 24px 24px"
+						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
 							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
@@ -521,9 +519,10 @@ export default (() => {
 						border-radius="8px"
 						border-width="0px 0px 0px 4px"
 						border-style="solid"
-						border-color="--color-red"
+						border-color="#a61414"
 						box-shadow="--m"
 						sm-padding="24px 24px 24px 24px"
+						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
 							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
@@ -537,9 +536,10 @@ export default (() => {
 						border-radius="8px"
 						border-width="0px 0px 0px 4px"
 						border-style="solid"
-						border-color="--color-red"
+						border-color="#a61414"
 						box-shadow="--m"
 						sm-padding="24px 24px 24px 24px"
+						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
 							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
@@ -548,23 +548,31 @@ export default (() => {
 						</Box>
 					</Box>
 				</Box>
-				<Text
-					margin="0px 0px 0px 0px"
-					color="#f6f3f3"
-					text-align="center"
-					font="20px --fontFamily-googleMontserrat"
-					height="100px"
-					align-self="stretch"
-					flex="0 1 auto"
-					min-height="2px"
-				>
-					<br />
-					<br />
-					¿No encuentras el servicio que requieres? ¡Contáctanos!
-				</Text>
 			</Box>
 		</Section>
-		<Section background="#0E1317" padding="80px 0 80px 0" position="static">
+		<Section background="#a61414">
+			<Text margin="0px 0px 0px 0px" color="#e3dede" text-align="center" font="25px --fontFamily-googleRaleway">
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					¿No encuentras el servicio que requieres? ¡Contáctanos!
+				</Strong>
+			</Text>
+		</Section>
+		<Section
+			background="#0E1317"
+			padding="100px 0 100px 0"
+			position="static"
+			sm-padding="90px 0 100px 0"
+			sm-height="600px"
+		>
 			<Box
 				display="flex"
 				align-items="center"
@@ -575,26 +583,39 @@ export default (() => {
 			>
 				<Text
 					margin="0px 0px 30px 0px"
-					font="normal 500 50px/1.2 --fontFamily-sans"
+					font="normal 500 80px/1.2 --fontFamily-sans"
 					color="--light"
 					text-align="center"
-					sm-font="normal 700 62px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					sm-font="normal 700 58px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					height="50px"
 				>
 					CONTACTO
 				</Text>
 				<Text margin="0px 0px 48px 0px" font="--lead" color="--light" text-align="center" />
-				<LinkBox href="mailto:carservice.mty@gmail.com" padding="0px 0px 10px 0px">
-					<Text margin="0px 0px 0px 0px" color="#f0e5e5" font="--headline3">
+				<LinkBox
+					href="mailto:carservice.mty@gmail.com"
+					padding="0px 0px 10px 0px"
+					sm-padding="0px 0px 20px 0px"
+					sm-font="20px sans-serif"
+					font="30px sans-serif"
+				>
+					<Text margin="0px 0px 0px 0px" color="#f0e5e5" font="normal 300 30px/1.5 --fontFamily-sans" sm-font="normal 300 20px/1.5 --fontFamily-sans">
 						carservice.mty@gmail.com
 					</Text>
 				</LinkBox>
-				<LinkBox href="tel:8184010683" padding="0px 0px 10px 0px">
-					<Text margin="0px 0px 0px 0px" color="#f0e5e5" font="--headline3">
+				<LinkBox href="tel:8184010683" padding="0px 0px 10px 0px" sm-padding="0px 0px 20px 0px" font="30px sans-serif">
+					<Text margin="0px 0px 0px 0px" color="#f0e5e5" font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" sm-font="--lead">
 						(+52) 8384010683
 					</Text>
 				</LinkBox>
-				<Text margin="0px 0px 48px 0px" font="--headline3" color="--light" text-align="center">
+				<Text
+					margin="0px 0px 48px 0px"
+					font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+					color="--light"
+					text-align="center"
+					sm-padding="0px 0px 20px 0px"
+					sm-font="normal 300 19px/1.5 --fontFamily-sans"
+				>
 					<Span
 						overflow-wrap="normal"
 						word-break="normal"
@@ -610,7 +631,13 @@ export default (() => {
 				</Text>
 			</Box>
 			<Structure cells-number-total="2" cells-number-group="2">
-				<Override slot="Content" grid-template-columns="repeat(2, 6fr)" sm-grid-template-columns="12fr">
+				<Override
+					slot="Content"
+					grid-template-columns="repeat(2, 6fr)"
+					sm-grid-template-columns="12fr"
+					sm-display="flex"
+					sm-justify-content="center"
+				>
 					<Override slot="cell-1">
 						<LinkBox href="https://www.instagram.com/carservice.mty/?hl=es-la">
 							<Image
