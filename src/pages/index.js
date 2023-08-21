@@ -585,25 +585,26 @@ export default (() => {
 					CONTACTO
 				</Text>
 				<Text margin="0px 0px 48px 0px" font="--lead" color="--light" text-align="center" />
-				<Structure
-					cells-number-total="4"
-					cells-number-group="2"
-					justify-content="center"
-					flex-wrap="wrap"
-					align-items="center"
-				>
+				<Structure cells-number-total="4" cells-number-group="4" display="grid">
 					<Override
 						slot="Content"
 						grid-template-columns="repeat(2, 6fr)"
 						sm-grid-template-columns="12fr"
 						sm-display="flex"
 						sm-justify-content="center"
-						display="flex"
+						grid-gap="50px"
 						justify-content="center"
+						display="flex"
 					>
 						<Override slot="cell-1">
-							<LinkBox href="tel:8184010683">
-								<Text margin="0px 0px 0px 0px" color="#f0e5e5" font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" sm-font="--lead">
+							<LinkBox href="tel:8184010683" align-items="flex-start">
+								<Text
+									margin="0px 0px 0px 0px"
+									color="#f0e5e5"
+									font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+									sm-font="--lead"
+									width="250px"
+								>
 									(+52) 8184010683
 								</Text>
 							</LinkBox>
@@ -613,38 +614,21 @@ export default (() => {
 								<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16:34:22.585Z" display="block" height="50px" width="40px" />
 							</LinkBox>
 						</Override>
-						<Override slot="Cell 0th" position="relative" width="40px" />
-						<Override
-							slot="Cell 1st"
-							height="65px"
-							display="block"
-							width="300px"
-							text-align="left"
-						/>
+						<Override slot="Cell 0th" position="relative" width="50px" />
+						<Override slot="Cell 1st" height="65px" width="190px" display="block" />
 						<Override slot="cell-2">
 							<LinkBox href="tel:8181142157">
 								<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16:34:22.585Z" display="block" width="40px" />
 							</LinkBox>
 						</Override>
 						<Override slot="cell-3">
-							<LinkBox
-								order="0"
-								align-self="flex-start"
-								display="flex"
-								href="tel:8181142157"
-								position="static"
-								align-items="center"
-								width="300px"
-								flex-direction="row-reverse"
-								justify-content="flex-end"
-							>
-								<LinkBox href="tel:8184010683" padding="0px 0px 10px 0px" sm-padding="0px 0px 20px 0px" font="30px sans-serif">
-									<Text margin="0px 0px 0px 0px" color="#f0e5e5" font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" sm-font="--lead">
-										(+52) 8181142157
-									</Text>
-								</LinkBox>
+							<LinkBox href="tel:8181142157">
+								<Text margin="0px 0px 0px 0px" color="#f0e5e5" font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" sm-font="--lead">
+									(+52) 8181142157
+								</Text>
 							</LinkBox>
 						</Override>
+						<Override slot="Cell 2nd" position="relative" />
 					</Override>
 				</Structure>
 				<Structure
@@ -690,7 +674,7 @@ export default (() => {
 								align-items="flex-end"
 							>
 								<LinkBox href="mailto:carservice.mty@gmail.com">
-									<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/mail.png?v=2023-08-21T16:56:37.763Z" display="block" width="65px" />
+									<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/mail.png?v=2023-08-21T16:56:37.763Z" display="block" width="50px" />
 								</LinkBox>
 							</LinkBox>
 						</Override>
@@ -788,7 +772,7 @@ export default (() => {
 							>
 								<LinkBox>
 									<LinkBox href="https://goo.gl/maps/mMxPun6hHnTHCFpZA">
-										<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/location.png?v=2023-08-21T17:06:53.003Z" display="block" width="65px" />
+										<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/location.png?v=2023-08-21T17:06:53.003Z" display="block" width="50px" />
 									</LinkBox>
 								</LinkBox>
 							</LinkBox>
@@ -835,6 +819,8 @@ export default (() => {
 					sm-grid-template-columns="12fr"
 					sm-display="flex"
 					sm-justify-content="center"
+					display="grid"
+					grid-gap="50px"
 				>
 					<Override slot="cell-1">
 						<LinkBox href="https://www.instagram.com/carservice.mty/?hl=es-la">
@@ -842,7 +828,7 @@ export default (() => {
 								src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/instagram%20logo.png?v=2023-08-08T23:20:50.602Z"
 								display="block"
 								align-self="flex-start"
-								width="60px"
+								width="50px"
 								padding="1px 0px 0px 0px"
 								margin="2.5px 0px 0px 0px"
 							/>
@@ -857,7 +843,7 @@ export default (() => {
 							position="static"
 							align-items="flex-end"
 						>
-							<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/facebook%20logo.png?v=2023-08-09T18:38:53.739Z" display="block" width="65px" />
+							<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/facebook%20logo.png?v=2023-08-09T18:38:53.739Z" display="block" width="50px" />
 						</LinkBox>
 					</Override>
 					<Override slot="Cell 0th" position="relative" />
