@@ -430,7 +430,9 @@ export default (() => {
 							<br />
 							- al Sistema de Enfriamiento
 							<br />
-							- de Bolsas de Aire (Air Bag)
+							- de Bolsas de Aire
+							<br />
+							- para Compra de Vehículo
 						</Text>
 					</Box>
 					<Box
@@ -465,6 +467,8 @@ export default (() => {
 							- de Aire Acondicionado
 							<br />
 							- de Dirección Hidráulica
+							<br />
+							- de Problemas Eléctricos
 						</Text>
 					</Box>
 					<Box
@@ -662,7 +666,6 @@ export default (() => {
 					>
 						<Override slot="cell-1">
 							<LinkBox
-								href="mailto:carservice.mty@gmail.com"
 								padding="0px 0px 10px 0px"
 								sm-padding="0px 0px 20px 0px"
 								sm-font="20px sans-serif"
@@ -670,6 +673,7 @@ export default (() => {
 								align-items="stretch"
 								justify-content="center"
 								align-content="center"
+								href="mailto:carservice.mty@gmail.com"
 							>
 								<Text margin="0px 0px 0px 0px" color="#f0e5e5" font="normal 300 25px/1.5 --fontFamily-sans" sm-font="normal 300 20px/1.5 --fontFamily-sans">
 									carservice.mty@gmail.com
@@ -681,7 +685,7 @@ export default (() => {
 								order="0"
 								align-self="flex-start"
 								display="flex"
-								href="https://www.facebook.com/CarServiceMx"
+								href="mailto:carservice.mty@gmail.com"
 								position="static"
 								align-items="flex-end"
 							>
@@ -726,11 +730,12 @@ export default (() => {
 				</Structure>
 				<Structure
 					cells-number-group="2"
-					justify-content="center"
+					justify-content="start"
 					flex-wrap="no-wrap"
 					align-items="center"
 					cells-number-total="2"
 					align-content="center"
+					display="grid"
 				>
 					<Override
 						slot="Content"
@@ -738,42 +743,46 @@ export default (() => {
 						sm-grid-template-columns="12fr"
 						sm-display="flex"
 						sm-justify-content="center"
-						display="flex"
-						justify-content="flex-start"
+						display="grid"
+						justify-content="start"
 						flex-direction="row"
 						align-content="center"
 						align-items="center"
+						justify-items="start"
+						width="480px"
 					>
 						<Override slot="cell-1">
-							<Text
-								margin="0px 0px px 0px"
-								font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
-								color="--light"
-								text-align="left"
-								sm-padding="0px 0px 20px 0px"
-								sm-font="normal 300 19px/1.5 --fontFamily-sans"
-								width="800px"
-							>
-								<Span
-									overflow-wrap="normal"
-									word-break="normal"
-									white-space="normal"
-									text-indent="0"
-									text-overflow="clip"
-									hyphens="manual"
-									user-select="auto"
-									pointer-events="auto"
+							<LinkBox>
+								<Text
+									margin="0px 0px px 0px"
+									font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+									color="--light"
+									text-align="right"
+									sm-padding="0px 0px 20px 0px"
+									sm-font="normal 300 19px/1.5 --fontFamily-sans"
+									width="800px"
 								>
-									Calle Gral. Aarón Sáenz 3909, Mederos, 64950 Monterrey, N.L.
-								</Span>
-							</Text>
+									<Span
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+										user-select="auto"
+										pointer-events="auto"
+									>
+										Calle Gral. Aarón Sáenz 3909, Mederos, 64950 Monterrey, N.L.
+									</Span>
+								</Text>
+							</LinkBox>
 						</Override>
 						<Override slot="cell-0">
 							<LinkBox
 								order="0"
 								align-self="flex-start"
 								display="flex"
-								href="https://www.facebook.com/CarServiceMx"
+								href="https://goo.gl/maps/mMxPun6hHnTHCFpZA"
 								position="static"
 								align-items="flex-end"
 							>
