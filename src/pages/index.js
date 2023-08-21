@@ -61,6 +61,7 @@ export default (() => {
 				flex-direction="column"
 				justify-content="space-between"
 				md-width="100%"
+				sm-align-content="center"
 			>
 				<Text margin="0px 0px 40px 0px" color="--dark" font="--headline3" md-margin="0px 0px 30px 0px">
 					HISTORIA
@@ -210,7 +211,7 @@ export default (() => {
 					>
 						Utilizamos
 					</Strong>
-					{" "}únicamente{" "}
+					{" "}
 					<Strong
 						overflow-wrap="normal"
 						word-break="normal"
@@ -265,7 +266,7 @@ export default (() => {
 			lg-padding="45px 0 45px 0"
 			quarkly-title="Advantages/Features-26"
 			height="1438px"
-			sm-height="2090px"
+			sm-height="2000px"
 			md-height="2100px"
 		>
 			<Override
@@ -297,7 +298,7 @@ export default (() => {
 					color="--light"
 					width="100%"
 					md-width="100%"
-					sm-font="normal 600 40px/1.2 --fontFamily-sans"
+					sm-font="normal 600 50px/1.2 --fontFamily-sans"
 					text-align="center"
 					sm-text-align="center"
 				>
@@ -312,7 +313,16 @@ export default (() => {
 						user-select="auto"
 						pointer-events="auto"
 					>
-						<Strong>
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
 							NUESTROS SERVICIOS
 						</Strong>
 					</Span>
@@ -353,7 +363,7 @@ export default (() => {
 						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
-							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 --fontFamily-sans" color="--light">
+							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 --fontFamily-sans" color="--light" sm-font="normal 300 25px/1.5 --fontFamily-sans">
 								Afinación{" "}
 							</Text>
 						</Box>
@@ -375,7 +385,7 @@ export default (() => {
 						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
-							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light">
+							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light" sm-font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
 								Cambio
 							</Text>
 						</Box>
@@ -403,7 +413,7 @@ export default (() => {
 						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
-							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light">
+							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light" sm-font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
 								Revisión{" "}
 							</Text>
 						</Box>
@@ -422,7 +432,7 @@ export default (() => {
 							<br />
 							- de Bolsas de Aire
 							<br />
-							- para compra de vehículo
+							- para Compra de Vehículo
 						</Text>
 					</Box>
 					<Box
@@ -436,15 +446,15 @@ export default (() => {
 						sm-padding="24px 24px 24px 24px"
 						sm-border-color="#a61414"
 					>
-						<Box display="flex" align-items="center">
-							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light">
+						<Box display="flex" align-items="center" sm-font="25px sans-serif">
+							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light" sm-font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
 								Reparación
 							</Text>
 						</Box>
 						<Text margin="16px 0px 0px 0px" font="normal 300 20px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--lightD2">
 							- al Sistema de Frenos y ABS
 							<br />
-							- de Fugas de Aceite y de Agua
+							- de Fugas de Aceite
 							<br />
 							- de Transmisión Automática
 							<br />
@@ -473,7 +483,7 @@ export default (() => {
 						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
-							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light">
+							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light" sm-font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
 								Lavado de Motor
 							</Text>
 						</Box>
@@ -490,7 +500,7 @@ export default (() => {
 						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center" font="30px sans-serif">
-							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light">
+							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light" sm-font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
 								Diagnóstico por Computadora
 							</Text>
 						</Box>
@@ -506,9 +516,26 @@ export default (() => {
 						sm-padding="24px 24px 24px 24px"
 						sm-border-color="#a61414"
 					>
+						<Box display="flex" align-items="center" font="30px sans-serif">
+							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light" sm-font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif">
+								Revisión para Compra de Vehículo
+							</Text>
+						</Box>
+					</Box>
+					<Box
+						padding="24px 24px 48px 24px"
+						background="--color-darkL2"
+						border-radius="8px"
+						border-width="0px 0px 0px 4px"
+						border-style="solid"
+						border-color="#a61414"
+						box-shadow="--m"
+						sm-padding="24px 24px 24px 24px"
+						sm-border-color="#a61414"
+					>
 						<Box display="flex" align-items="center">
-							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 --fontFamily-sans" color="--light">
-								Revisión para carretera y puntos de seguridad
+							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 --fontFamily-sans" color="--light" sm-font="normal 300 25px/1.5 --fontFamily-sans">
+								Revisión para Carretera y Puntos de Seguridad
 							</Text>
 						</Box>
 					</Box>
@@ -537,6 +564,7 @@ export default (() => {
 			position="static"
 			sm-padding="90px 0 100px 0"
 			sm-height="600px"
+			overflow-x="visible"
 		>
 			<Box
 				display="flex"
@@ -557,43 +585,243 @@ export default (() => {
 					CONTACTO
 				</Text>
 				<Text margin="0px 0px 48px 0px" font="--lead" color="--light" text-align="center" />
-				<LinkBox
-					href="mailto:carservice.mty@gmail.com"
-					padding="0px 0px 10px 0px"
-					sm-padding="0px 0px 20px 0px"
-					sm-font="20px sans-serif"
-					font="30px sans-serif"
+				<Structure
+					cells-number-total="4"
+					cells-number-group="2"
+					justify-content="center"
+					flex-wrap="wrap"
+					align-items="center"
 				>
-					<Text margin="0px 0px 0px 0px" color="#f0e5e5" font="normal 300 30px/1.5 --fontFamily-sans" sm-font="normal 300 20px/1.5 --fontFamily-sans">
-						carservice.mty@gmail.com
-					</Text>
-				</LinkBox>
-				<LinkBox href="tel:8184010683" padding="0px 0px 10px 0px" sm-padding="0px 0px 20px 0px" font="30px sans-serif">
-					<Text margin="0px 0px 0px 0px" color="#f0e5e5" font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" sm-font="--lead">
-						(+52) 8384010683
-					</Text>
-				</LinkBox>
-				<Text
-					margin="0px 0px 48px 0px"
-					font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
-					color="--light"
-					text-align="center"
-					sm-padding="0px 0px 20px 0px"
-					sm-font="normal 300 19px/1.5 --fontFamily-sans"
-				>
-					<Span
-						overflow-wrap="normal"
-						word-break="normal"
-						white-space="normal"
-						text-indent="0"
-						text-overflow="clip"
-						hyphens="manual"
-						user-select="auto"
-						pointer-events="auto"
+					<Override
+						slot="Content"
+						grid-template-columns="repeat(2, 6fr)"
+						sm-grid-template-columns="12fr"
+						sm-display="flex"
+						sm-justify-content="center"
+						display="flex"
+						justify-content="center"
 					>
-						Calle Gral. Aarón Sáenz 3909, Mederos, 64950 Monterrey, N.L.
-					</Span>
-				</Text>
+						<Override slot="cell-1">
+							<LinkBox href="tel:8184010683">
+								<Text margin="0px 0px 0px 0px" color="#f0e5e5" font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" sm-font="--lead">
+									(+52) 8184010683
+								</Text>
+							</LinkBox>
+						</Override>
+						<Override slot="cell-0">
+							<LinkBox href="tel:8184010683">
+								<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16:34:22.585Z" display="block" height="50px" width="40px" />
+							</LinkBox>
+						</Override>
+						<Override slot="Cell 0th" position="relative" width="40px" />
+						<Override
+							slot="Cell 1st"
+							height="65px"
+							display="block"
+							width="300px"
+							text-align="left"
+						/>
+						<Override slot="cell-2">
+							<LinkBox href="tel:8181142157">
+								<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16:34:22.585Z" display="block" width="40px" />
+							</LinkBox>
+						</Override>
+						<Override slot="cell-3">
+							<LinkBox
+								order="0"
+								align-self="flex-start"
+								display="flex"
+								href="tel:8181142157"
+								position="static"
+								align-items="center"
+								width="300px"
+								flex-direction="row-reverse"
+								justify-content="flex-end"
+							>
+								<LinkBox href="tel:8184010683" padding="0px 0px 10px 0px" sm-padding="0px 0px 20px 0px" font="30px sans-serif">
+									<Text margin="0px 0px 0px 0px" color="#f0e5e5" font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" sm-font="--lead">
+										(+52) 8181142157
+									</Text>
+								</LinkBox>
+							</LinkBox>
+						</Override>
+					</Override>
+				</Structure>
+				<Structure
+					cells-number-group="2"
+					cells-number-total="2"
+					justify-content="center"
+					flex-wrap="wrap"
+					align-items="center"
+					height="90px"
+				>
+					<Override
+						slot="Content"
+						grid-template-columns="repeat(2, 6fr)"
+						sm-grid-template-columns="12fr"
+						sm-display="flex"
+						sm-justify-content="center"
+						display="flex"
+						justify-content="center"
+					>
+						<Override slot="cell-1">
+							<LinkBox
+								href="mailto:carservice.mty@gmail.com"
+								padding="0px 0px 10px 0px"
+								sm-padding="0px 0px 20px 0px"
+								sm-font="20px sans-serif"
+								font="30px sans-serif"
+								align-items="stretch"
+								justify-content="center"
+								align-content="center"
+							>
+								<Text margin="0px 0px 0px 0px" color="#f0e5e5" font="normal 300 25px/1.5 --fontFamily-sans" sm-font="normal 300 20px/1.5 --fontFamily-sans">
+									carservice.mty@gmail.com
+								</Text>
+							</LinkBox>
+						</Override>
+						<Override slot="cell-0">
+							<LinkBox
+								order="0"
+								align-self="flex-start"
+								display="flex"
+								href="https://www.facebook.com/CarServiceMx"
+								position="static"
+								align-items="flex-end"
+							>
+								<LinkBox href="mailto:carservice.mty@gmail.com">
+									<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/mail.png?v=2023-08-21T16:56:37.763Z" display="block" width="65px" />
+								</LinkBox>
+							</LinkBox>
+						</Override>
+						<Override slot="Cell 0th" position="relative" width="40px" />
+						<Override
+							slot="Cell 1st"
+							height="65px"
+							display="block"
+							width="300px"
+							text-align="left"
+						/>
+						<Override slot="cell-2">
+							<LinkBox href="tel:8181142157">
+								<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16:34:22.585Z" display="block" width="40px" />
+							</LinkBox>
+						</Override>
+						<Override slot="cell-3">
+							<LinkBox
+								order="0"
+								align-self="flex-start"
+								display="flex"
+								href="tel:8181142157"
+								position="static"
+								align-items="center"
+								width="300px"
+								flex-direction="row-reverse"
+								justify-content="flex-end"
+							>
+								<LinkBox href="tel:8184010683" padding="0px 0px 10px 0px" sm-padding="0px 0px 20px 0px" font="30px sans-serif">
+									<Text margin="0px 0px 0px 0px" color="#f0e5e5" font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" sm-font="--lead">
+										(+52) 8181142157
+									</Text>
+								</LinkBox>
+							</LinkBox>
+						</Override>
+					</Override>
+				</Structure>
+				<Structure
+					cells-number-group="2"
+					justify-content="center"
+					flex-wrap="no-wrap"
+					align-items="center"
+					cells-number-total="2"
+					align-content="center"
+				>
+					<Override
+						slot="Content"
+						grid-template-columns="repeat(2, 6fr)"
+						sm-grid-template-columns="12fr"
+						sm-display="flex"
+						sm-justify-content="center"
+						display="flex"
+						justify-content="flex-start"
+						flex-direction="row"
+						align-content="center"
+						align-items="center"
+					>
+						<Override slot="cell-1">
+							<Text
+								margin="0px 0px px 0px"
+								font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+								color="--light"
+								text-align="left"
+								sm-padding="0px 0px 20px 0px"
+								sm-font="normal 300 19px/1.5 --fontFamily-sans"
+								width="800px"
+							>
+								<Span
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+									user-select="auto"
+									pointer-events="auto"
+								>
+									Calle Gral. Aarón Sáenz 3909, Mederos, 64950 Monterrey, N.L.
+								</Span>
+							</Text>
+						</Override>
+						<Override slot="cell-0">
+							<LinkBox
+								order="0"
+								align-self="flex-start"
+								display="flex"
+								href="https://www.facebook.com/CarServiceMx"
+								position="static"
+								align-items="flex-end"
+							>
+								<LinkBox>
+									<LinkBox href="https://goo.gl/maps/mMxPun6hHnTHCFpZA">
+										<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/location.png?v=2023-08-21T17:06:53.003Z" display="block" width="65px" />
+									</LinkBox>
+								</LinkBox>
+							</LinkBox>
+						</Override>
+						<Override slot="Cell 0th" position="relative" width="50px" />
+						<Override
+							slot="Cell 1st"
+							height="65px"
+							display="block"
+							width="300px"
+							text-align="left"
+						/>
+						<Override slot="cell-2">
+							<LinkBox href="tel:8181142157">
+								<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16:34:22.585Z" display="block" width="40px" />
+							</LinkBox>
+						</Override>
+						<Override slot="cell-3">
+							<LinkBox
+								order="0"
+								align-self="flex-start"
+								display="flex"
+								href="tel:8181142157"
+								position="static"
+								align-items="center"
+								width="300px"
+								flex-direction="row-reverse"
+								justify-content="flex-end"
+							>
+								<LinkBox href="tel:8184010683" padding="0px 0px 10px 0px" sm-padding="0px 0px 20px 0px" font="30px sans-serif">
+									<Text margin="0px 0px 0px 0px" color="#f0e5e5" font="normal 300 25px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" sm-font="--lead">
+										(+52) 8181142157
+									</Text>
+								</LinkBox>
+							</LinkBox>
+						</Override>
+					</Override>
+				</Structure>
 			</Box>
 			<Structure cells-number-total="2" cells-number-group="2">
 				<Override
