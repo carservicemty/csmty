@@ -65,7 +65,13 @@ export default (() => {
 				<Text margin="0px 0px 40px 0px" color="--dark" font="--headline3" md-margin="0px 0px 30px 0px">
 					HISTORIA
 				</Text>
-				<Text margin="0px 0px 40px 0px" color="--darkL2" font="--base">
+				<Text
+					margin="0px 0px 40px 0px"
+					color="--darkL2"
+					font="--base"
+					width="550px"
+					sm-width="372.594px"
+				>
 					Desde su inauguración el{" "}
 					<Strong>
 						12
@@ -258,8 +264,8 @@ export default (() => {
 			display="flex"
 			lg-padding="45px 0 45px 0"
 			quarkly-title="Advantages/Features-26"
-			height="1338px"
-			sm-height="2000px"
+			height="1438px"
+			sm-height="2090px"
 			md-height="2100px"
 		>
 			<Override
@@ -347,11 +353,11 @@ export default (() => {
 						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
-							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
+							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 --fontFamily-sans" color="--light">
 								Afinación{" "}
 							</Text>
 						</Box>
-						<Text margin="16px 0px 0px 0px" font="--base" color="--lightD2">
+						<Text margin="16px 0px 0px 0px" font="normal 300 20px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--lightD2">
 							- de Motor
 							<br />
 							- de Transmisión
@@ -369,11 +375,11 @@ export default (() => {
 						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
-							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
+							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light">
 								Cambio
 							</Text>
 						</Box>
-						<Text margin="16px 0px 0px 0px" font="--base" color="--lightD2">
+						<Text margin="16px 0px 0px 0px" font="normal 300 20px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--lightD2">
 							- de Aceite y Filtro de Aceite
 							<br />
 							- de Anticongelante
@@ -397,22 +403,58 @@ export default (() => {
 						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
-							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
+							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light">
+								Revisión{" "}
+							</Text>
+						</Box>
+						<Text margin="16px 0px 0px 0px" font="normal 300 20px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--lightD2">
+							- del Sistema de Frenos y ABS
+							<br />
+							- de Suspensión y Dirección
+							<br />
+							- de Niveles, Mangueras. Abrazaderas y Bandas
+							<br />
+							- al Sistema de Carga
+							<br />
+							- de Fallas Eléctricas
+							<br />
+							- al Sistema de Enfriamiento
+							<br />
+							- de Bolsas de Aire
+							<br />
+							- para compra de vehículo
+						</Text>
+					</Box>
+					<Box
+						padding="24px 24px 48px 24px"
+						background="--color-darkL2"
+						border-radius="8px"
+						border-width="0px 0px 0px 4px"
+						border-style="solid"
+						border-color="#a61414"
+						box-shadow="--m"
+						sm-padding="24px 24px 24px 24px"
+						sm-border-color="#a61414"
+					>
+						<Box display="flex" align-items="center">
+							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light">
 								Reparación
 							</Text>
 						</Box>
-						<Text margin="16px 0px 0px 0px" font="--base" color="--lightD2">
-							- al Sistema de Frenos ABS
+						<Text margin="16px 0px 0px 0px" font="normal 300 20px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--lightD2">
+							- al Sistema de Frenos y ABS
 							<br />
 							- de Fugas de Aceite y de Agua
 							<br />
 							- de Transmisión Automática
 							<br />
-							- de Fallas Electrónicas y de Combustible
+							- de Fallas Eléctricas
+							<br />
+							- de Fugas de Agua
 							<br />
 							- de Suspensión y Dirección
 							<br />
-							- y Cambio de Piezas del Aire Acondicionado
+							- de Aire Acondicionado
 							<br />
 							- de Dirección Hidráulica
 							<br />
@@ -431,50 +473,7 @@ export default (() => {
 						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
-							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
-								Revisión{" "}
-							</Text>
-						</Box>
-						<Text margin="16px 0px 0px 0px" font="--base" color="--lightD2">
-							- del Sistema de Frenos ABS
-							<br />
-							- de Suspensión y Dirección
-							<br />
-							- de Niveles, Mangueras. Abrazaderas y Bandas
-							<br />
-							- al Sistema de Carga
-						</Text>
-					</Box>
-					<Box
-						padding="24px 24px 48px 24px"
-						background="--color-darkL2"
-						border-radius="8px"
-						border-width="0px 0px 0px 4px"
-						border-style="solid"
-						border-color="#a61414"
-						box-shadow="--m"
-						sm-padding="24px 24px 24px 24px"
-						sm-border-color="#a61414"
-					>
-						<Box display="flex" align-items="center">
-							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
-								Bolsas de aire
-							</Text>
-						</Box>
-					</Box>
-					<Box
-						padding="24px 24px 48px 24px"
-						background="--color-darkL2"
-						border-radius="8px"
-						border-width="0px 0px 0px 4px"
-						border-style="solid"
-						border-color="#a61414"
-						box-shadow="--m"
-						sm-padding="24px 24px 24px 24px"
-						sm-border-color="#a61414"
-					>
-						<Box display="flex" align-items="center">
-							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
+							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light">
 								Lavado de Motor
 							</Text>
 						</Box>
@@ -490,25 +489,8 @@ export default (() => {
 						sm-padding="24px 24px 24px 24px"
 						sm-border-color="#a61414"
 					>
-						<Box display="flex" align-items="center">
-							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
-								Limpieza y Revisión del Sistema de Enfriamiento
-							</Text>
-						</Box>
-					</Box>
-					<Box
-						padding="24px 24px 48px 24px"
-						background="--color-darkL2"
-						border-radius="8px"
-						border-width="0px 0px 0px 4px"
-						border-style="solid"
-						border-color="#a61414"
-						box-shadow="--m"
-						sm-padding="24px 24px 24px 24px"
-						sm-border-color="#a61414"
-					>
-						<Box display="flex" align-items="center">
-							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
+						<Box display="flex" align-items="center" font="30px sans-serif">
+							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif" color="--light">
 								Diagnóstico por Computadora
 							</Text>
 						</Box>
@@ -525,25 +507,8 @@ export default (() => {
 						sm-border-color="#a61414"
 					>
 						<Box display="flex" align-items="center">
-							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
-								Recarga de Gas al Clima y Revisión de Fugas
-							</Text>
-						</Box>
-					</Box>
-					<Box
-						padding="24px 24px 48px 24px"
-						background="--color-darkL2"
-						border-radius="8px"
-						border-width="0px 0px 0px 4px"
-						border-style="solid"
-						border-color="#a61414"
-						box-shadow="--m"
-						sm-padding="24px 24px 24px 24px"
-						sm-border-color="#a61414"
-					>
-						<Box display="flex" align-items="center">
-							<Text margin="0px 0px 0px 12px" font="--lead" color="--light">
-								Lubricación y Ajuste de Suspensión
+							<Text margin="0px 0px 0px 12px" font="normal 300 30px/1.5 --fontFamily-sans" color="--light">
+								Revisión para carretera y puntos de seguridad
 							</Text>
 						</Box>
 					</Box>
