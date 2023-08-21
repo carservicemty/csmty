@@ -431,8 +431,6 @@ export default (() => {
 							- al Sistema de Enfriamiento
 							<br />
 							- de Bolsas de Aire
-							<br />
-							- para Compra de Vehículo
 						</Text>
 					</Box>
 					<Box
