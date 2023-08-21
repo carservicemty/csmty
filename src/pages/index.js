@@ -543,7 +543,7 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section background="#a61414">
-			<Text margin="0px 0px 0px 0px" color="#e3dede" text-align="center" font="25px --fontFamily-googleRaleway">
+			<Text margin="0px 0px 0px 0px" color="#faf3f3" text-align="center" font="35px --fontFamily-googleRaleway">
 				<Strong
 					overflow-wrap="normal"
 					word-break="normal"
