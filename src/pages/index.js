@@ -430,7 +430,7 @@ export default (() => {
 							<br />
 							- al Sistema de Enfriamiento
 							<br />
-							- de Bolsas de Aire
+							- de Bolsas de Aire (Air Bag)
 						</Text>
 					</Box>
 					<Box
@@ -465,8 +465,6 @@ export default (() => {
 							- de Aire Acondicionado
 							<br />
 							- de Dirección Hidráulica
-							<br />
-							- de Problemas Eléctricos
 						</Text>
 					</Box>
 					<Box
