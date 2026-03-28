@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: "Quarkly gatsby project",
-        description: "",
+        title: "Car Service MTY",
+        description: "Taller mecánico en Monterrey",
         author: "@Car Service",
         siteUrl: "https://www.carservice.com.mx"
     },
