@@ -28,6 +28,8 @@ export default (() => {
 				width="120px"
 				height="150px"
 				align-self="center"
+				srcSet="https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/CAR%20SERVICE%20%28LOGO%20ORIGINAL%29%20%282%29.png?v=2023-08-07T16%3A28%3A19.302Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/CAR%20SERVICE%20%28LOGO%20ORIGINAL%29%20%282%29.png?v=2023-08-07T16%3A28%3A19.302Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/CAR%20SERVICE%20%28LOGO%20ORIGINAL%29%20%282%29.png?v=2023-08-07T16%3A28%3A19.302Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/CAR%20SERVICE%20%28LOGO%20ORIGINAL%29%20%282%29.png?v=2023-08-07T16%3A28%3A19.302Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/CAR%20SERVICE%20%28LOGO%20ORIGINAL%29%20%282%29.png?v=2023-08-07T16%3A28%3A19.302Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/CAR%20SERVICE%20%28LOGO%20ORIGINAL%29%20%282%29.png?v=2023-08-07T16%3A28%3A19.302Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/CAR%20SERVICE%20%28LOGO%20ORIGINAL%29%20%282%29.png?v=2023-08-07T16%3A28%3A19.302Z&quality=85&w=3200 3200w"
+				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 		</Box>
 		<Section background="#a61414" height="30px" />
@@ -253,7 +255,7 @@ export default (() => {
 					{" "}que realizamos.{" "}
 				</Text>
 			</Box>
-			<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/cs.jpeg?v=2023-08-07T18:48:44.751Z" display="block" />
+			<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/cs.jpeg?v=2023-08-07T18:48:44.751Z" display="block" srcSet="https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/cs.jpeg?v=2023-08-07T18%3A48%3A44.751Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/cs.jpeg?v=2023-08-07T18%3A48%3A44.751Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/cs.jpeg?v=2023-08-07T18%3A48%3A44.751Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/cs.jpeg?v=2023-08-07T18%3A48%3A44.751Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/cs.jpeg?v=2023-08-07T18%3A48%3A44.751Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/cs.jpeg?v=2023-08-07T18%3A48%3A44.751Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/cs.jpeg?v=2023-08-07T18%3A48%3A44.751Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
 		</Section>
 		<Section background="#a61414" height="30px" />
 		<Section
@@ -611,14 +613,27 @@ export default (() => {
 						</Override>
 						<Override slot="cell-0">
 							<LinkBox href="tel:8184010683">
-								<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16:34:22.585Z" display="block" height="50px" width="40px" />
+								<Image
+									src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16:34:22.585Z"
+									display="block"
+									height="50px"
+									width="40px"
+									srcSet="https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=3200 3200w"
+									sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+								/>
 							</LinkBox>
 						</Override>
 						<Override slot="Cell 0th" position="relative" width="50px" />
 						<Override slot="Cell 1st" height="65px" width="190px" display="block" />
 						<Override slot="cell-2">
 							<LinkBox href="tel:8181142157">
-								<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16:34:22.585Z" display="block" width="40px" />
+								<Image
+									src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16:34:22.585Z"
+									display="block"
+									width="40px"
+									srcSet="https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=3200 3200w"
+									sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+								/>
 							</LinkBox>
 						</Override>
 						<Override slot="cell-3">
@@ -674,7 +689,13 @@ export default (() => {
 								align-items="flex-end"
 							>
 								<LinkBox href="mailto:carservice.mty@gmail.com">
-									<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/mail.png?v=2023-08-21T16:56:37.763Z" display="block" width="50px" />
+									<Image
+										src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/mail.png?v=2023-08-21T16:56:37.763Z"
+										display="block"
+										width="50px"
+										srcSet="https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/mail.png?v=2023-08-21T16%3A56%3A37.763Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/mail.png?v=2023-08-21T16%3A56%3A37.763Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/mail.png?v=2023-08-21T16%3A56%3A37.763Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/mail.png?v=2023-08-21T16%3A56%3A37.763Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/mail.png?v=2023-08-21T16%3A56%3A37.763Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/mail.png?v=2023-08-21T16%3A56%3A37.763Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/mail.png?v=2023-08-21T16%3A56%3A37.763Z&quality=85&w=3200 3200w"
+										sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+									/>
 								</LinkBox>
 							</LinkBox>
 						</Override>
@@ -688,7 +709,13 @@ export default (() => {
 						/>
 						<Override slot="cell-2">
 							<LinkBox href="tel:8181142157">
-								<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16:34:22.585Z" display="block" width="40px" />
+								<Image
+									src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16:34:22.585Z"
+									display="block"
+									width="40px"
+									srcSet="https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=3200 3200w"
+									sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+								/>
 							</LinkBox>
 						</Override>
 						<Override slot="cell-3">
@@ -772,7 +799,13 @@ export default (() => {
 							>
 								<LinkBox>
 									<LinkBox href="https://goo.gl/maps/mMxPun6hHnTHCFpZA">
-										<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/location.png?v=2023-08-21T17:06:53.003Z" display="block" width="50px" />
+										<Image
+											src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/location.png?v=2023-08-21T17:06:53.003Z"
+											display="block"
+											width="50px"
+											srcSet="https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/location.png?v=2023-08-21T17%3A06%3A53.003Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/location.png?v=2023-08-21T17%3A06%3A53.003Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/location.png?v=2023-08-21T17%3A06%3A53.003Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/location.png?v=2023-08-21T17%3A06%3A53.003Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/location.png?v=2023-08-21T17%3A06%3A53.003Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/location.png?v=2023-08-21T17%3A06%3A53.003Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/location.png?v=2023-08-21T17%3A06%3A53.003Z&quality=85&w=3200 3200w"
+											sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+										/>
 									</LinkBox>
 								</LinkBox>
 							</LinkBox>
@@ -787,7 +820,13 @@ export default (() => {
 						/>
 						<Override slot="cell-2">
 							<LinkBox href="tel:8181142157">
-								<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16:34:22.585Z" display="block" width="40px" />
+								<Image
+									src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16:34:22.585Z"
+									display="block"
+									width="40px"
+									srcSet="https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/phone.png?v=2023-08-21T16%3A34%3A22.585Z&quality=85&w=3200 3200w"
+									sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+								/>
 							</LinkBox>
 						</Override>
 						<Override slot="cell-3">
@@ -831,6 +870,8 @@ export default (() => {
 								width="50px"
 								padding="1px 0px 0px 0px"
 								margin="2.5px 0px 0px 0px"
+								srcSet="https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/instagram%20logo.png?v=2023-08-08T23%3A20%3A50.602Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/instagram%20logo.png?v=2023-08-08T23%3A20%3A50.602Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/instagram%20logo.png?v=2023-08-08T23%3A20%3A50.602Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/instagram%20logo.png?v=2023-08-08T23%3A20%3A50.602Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/instagram%20logo.png?v=2023-08-08T23%3A20%3A50.602Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/instagram%20logo.png?v=2023-08-08T23%3A20%3A50.602Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/instagram%20logo.png?v=2023-08-08T23%3A20%3A50.602Z&quality=85&w=3200 3200w"
+								sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 							/>
 						</LinkBox>
 					</Override>
@@ -843,7 +884,13 @@ export default (() => {
 							position="static"
 							align-items="flex-end"
 						>
-							<Image src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/facebook%20logo.png?v=2023-08-09T18:38:53.739Z" display="block" width="50px" />
+							<Image
+								src="https://uploads.quarkly.io/64ceb8018bd7e600185c43a3/images/facebook%20logo.png?v=2023-08-09T18:38:53.739Z"
+								display="block"
+								width="50px"
+								srcSet="https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/facebook%20logo.png?v=2023-08-09T18%3A38%3A53.739Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/facebook%20logo.png?v=2023-08-09T18%3A38%3A53.739Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/facebook%20logo.png?v=2023-08-09T18%3A38%3A53.739Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/facebook%20logo.png?v=2023-08-09T18%3A38%3A53.739Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/facebook%20logo.png?v=2023-08-09T18%3A38%3A53.739Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/facebook%20logo.png?v=2023-08-09T18%3A38%3A53.739Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64ceb8018bd7e600185c43a3/images/facebook%20logo.png?v=2023-08-09T18%3A38%3A53.739Z&quality=85&w=3200 3200w"
+								sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+							/>
 						</LinkBox>
 					</Override>
 					<Override slot="Cell 0th" position="relative" />
@@ -851,6 +898,7 @@ export default (() => {
 				</Override>
 			</Structure>
 		</Section>
+		<Image src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=200" display="block" srcSet="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=500 500w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=800 800w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1080 1080w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600 1600w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000 2000w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2600 2600w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
