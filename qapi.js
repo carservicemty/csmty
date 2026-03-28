@@ -24,6 +24,9 @@ export default {
 	"projectType": "gatsby",
 	"site": {
 		"styles": {},
-		"seo": {}
+		"seo": {
+			"title": "Car Service",
+			"description": "Taller mecanico"
+		}
 	}
 }
