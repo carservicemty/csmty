@@ -8,11 +8,9 @@ import { MdArrowDownward } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
-		<Helmet>
-			<title>
-				Car Service
-			</title>
-			<meta name={"description"} content={"Taller mecanico"} />
+		<Helmet titleTemplate="%s">
+			<title>Car Service MTY</title>
+			<meta name={"description"} content={"Taller mecánico en Monterrey"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Box
